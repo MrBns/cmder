@@ -28,7 +28,7 @@ async function main() {
         const output = await new Deno.Command(cmd.name, { args: cmd.args }).output();
         if (output.success) {
           const outputText = new TextDecoder().decode(output.stdout);
-          console.log(outputText.trim());
+          console.log(outputText);
         } else {
           const outputText = new TextDecoder().decode(output.stderr);
           console.error(outputText);

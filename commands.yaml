@@ -5,3 +5,5 @@ commands:
     args: ["config", "user.email"]
   - name: "eza"
     args: ["--color=always", "--icons", "--group-directories-first", "--git"]
+  - name: "git"
+    args: ["push", "origin"]

@@ -1,0 +1,7 @@
+commands:
+  - name: "git"
+    args: ["config", "user.name"]
+  - name: "git"
+    args: ["config", "user.email"]
+  - name: "eza"
+    args: ["--color=always", "--icons", "--group-directories-first", "--git"]
